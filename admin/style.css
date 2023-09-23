@@ -1,0 +1,133 @@
+body{
+    background-color:blueviolet;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#form{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    margin-left: 480px;
+    align-content: center;
+    background-color:pink;
+    width:400px;
+    height:auto;
+    padding:30px;
+    border-radius:30px;
+    border-color:red;
+}
+
+.navbar.collapse.nav{
+    color:green;
+    margin-left:10px;margin-top:-90px;margin-bottom:-60px;
+
+}
+
+
+.navbar{
+    
+    background-color:greenyellow;
+
+
+}
+
+.notification{
+    background-color:wheat;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    padding:30px;
+
+}
+
+.form-reg{
+    background-color: white;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    padding:30px;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width:100px;
+        
+    padding:20px;
+    margin-left:50px;
+}
+
+th{
+    padding:10px;
+}
+
+td{
+    padding:10px;
+}
+
+
+
+footer{
+    background-color: yellowgreen;
+    letter-spacing: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    
+    }
+
+
+    #form{
+        margin-top: 90px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-content: center;
+        
+        width:auto;
+        height:auto;
+    
+        padding:30px;
+    }
+
+    .form-reg{
+        background-color: white;
+        margin-top:40px;
+        margin-left:-100px;
+        margin-right:0px;
+        margin-bottom: 10px;
+        padding:30px;
+    }
+    
+    
+  }
+
+
+
+
+  
+@media only screen and (max-width:786px) {
+    
+    .form-reg{
+        background-color: white;
+        margin-top:20px;
+        margin-left:auto;
+        margin-right:0px;
+        margin-bottom: 10px;
+        padding:30px;
+    }
+   
+    
+      }
+    
+    
+    
+    
+    
+
+

@@ -1,0 +1,302 @@
+body{
+    background-color:wheat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jumbotron{
+    margin-top:-21px;
+    width : 100% ;
+    height:220px;
+    color:purple;
+    background-color: grey;
+    overflow: hidden;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+
+}
+
+.jumbotron img{
+    width=100px;
+    border-bottom-color:aqua;
+}
+
+.jumbotron #head{
+
+    color:white;
+}
+
+.notification{
+    margin-top:-30px;
+    margin-bottom: 10px;
+    height:auto;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    color:red;
+    background-color:black;
+}
+
+.slider{
+    
+    margin-top:10px;
+    width:auto;
+    height:auto;
+    margin-bottom:10px;
+    
+    
+}
+
+
+h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  #customers {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+border:0px;
+width: 100%;
+}
+
+#customers td, #customers th {
+
+padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #4CAF50;
+color: white;
+}
+
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width:100px;
+    margin-left:50px;
+    padding:20px;
+    margin-bottom:50px;
+}
+
+th{
+    padding:10px;
+}
+
+td{
+    padding:10px;
+}
+
+
+.capche{
+
+    border:solid;
+     background-color:pink;
+      margin-left:300px;
+      margin-right:300px; 
+      padding-left:50px;
+      padding-right:50px;
+      padding-top:20px;
+      padding-bottom:20px;
+}
+
+
+
+
+.navbar{
+    background-color:greenyellow;
+    display: block;
+}
+
+
+.card{
+    height:auto;
+    width:auto;
+    padding:10px;
+    background-color:pink;
+    margin-bottom:10px;
+    margin-left:30px;
+    margin-right:10px;
+    margin-top:4px;
+   
+}
+
+.navbar-brand *{
+}
+
+.collapse *{
+}
+
+.form{
+    margin-top:10px;
+    padding-top:10px;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:20px;
+    width:auto;
+    height:auto;
+    color:black;
+    background-color:powderblue;
+    margin-bottom:10px;
+    border-radius:20px;
+}
+
+.marquee{
+    margin-top:0px;
+    height:50px;
+    color:blue;
+    background-color:palevioletred;
+}
+
+
+        <!--logincss-->
+.delardetail{
+    margin-left:50px;
+    width:640px;
+    height:260px;
+
+}
+
+.box{
+    margin-top:3px;
+    background-color;
+    margin-left:350px;
+    width:auto;
+    height:auto;
+}
+
+.catagory{
+    margin-top:10px;
+    padding:10px;
+    width:auto;
+    height: 400px;
+    background-color: paleturquoise;
+    margin-left:10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+}
+
+
+
+.feedback{
+     margin-left:450px;
+     margin-right:auto;
+    width:450px;
+    border-radius: 10px;
+    
+   
+    padding:30px;
+    margin-bottom:20px;
+     background-color: gold;
+}
+
+footer{
+    background-color: yellowgreen;
+    letter-spacing: 5px;
+}
+
+
+
+@media only screen and (max-width:786px) {
+
+    
+.navbar{
+    padding-bottom: 20px;
+    background-color:greenyellow;
+    margin-bottom:10px;
+}
+
+.card{
+
+    padding:30px;
+    background-color: aqua;
+    margin-bottom:10px;
+    margin-left:30px;
+   
+}
+
+
+.capche{
+     
+    height:auto;
+    width:auto;
+    border:solid;
+     background-color:pink;
+      margin-left:100px; 
+      padding:20px;
+}
+
+.img{
+    margin-left:20px;
+}
+
+.jumbotron{
+    margin-top:-21px;
+    height:auto;
+    color:purple;
+    background-color: grey;
+    overflow: hidden;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+
+}
+
+.catagory{
+    margin-top:10px;
+    padding:20px;
+    height: auto;
+    background-color: paleturquoise;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+
+.feedback{
+    margin:5px;
+    width:auto;
+    border-radius: 10px;
+    border:1px solid #E3E3E3;
+    padding:30px;
+    margin-bottom:20px;
+     background-color: gold;
+}
+
+.stock{
+    border:green;
+     background-color:khaki;
+      margin-bottom:10px; 
+      margin-left:10px;
+      margin-right:10px;
+      padding:30px;
+}
+
+.viewstock{
+    border:red;
+  margin-bottom:10px; 
+   margin-left:-65px;
+   padding:10px; 
+}
+
+viewstock{
+    border:red;
+  margin-bottom:10px; 
+     
+}
+
+
+
+  }
